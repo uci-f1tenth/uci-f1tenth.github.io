@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1Tenth @ UCI</title>
     <style>
-        body {
+        body { 
+            line-height: 1.4;
+            font-size: 16px;
+            padding: 0 10px;
+            margin: 50px auto;
+            max-width: 650px;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            text-align: center;
+        }
+        #maincontent {
+            max-width: 42em;
+            margin: 15px auto;
         }
         .header {
             display: flex;
             align-items: center;
-            justify-content: flex-start;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         .logo {
             width: 60px;
@@ -26,21 +28,19 @@
             margin-right: 15px;
             border-radius: 50%;
             overflow: hidden;
-            flex-shrink: 0;
         }
         .logo img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        h1 {
-            font-size: 1.8em;
+        h2 {
+            font-size: 1.5em;
             margin: 0;
             font-weight: normal;
         }
         .slogan {
-            font-size: 1em;
-            margin-bottom: 1em;
+            margin-bottom: 30px;
         }
         a {
             color: #0066cc;
@@ -52,13 +52,16 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="F1TenthUCIlogo.png" alt="F1Tenth @ UCI Logo">
+    <div id="maincontent" style="margin-top:70px">
+        <div class="header">
+            <div class="logo">
+                <img src="F1TenthUCIlogo.png" alt="F1Tenth @ UCI Logo">
+            </div>
+            <h2>F1Tenth @ UCI</h2>
         </div>
-        <h1>F1Tenth @ UCI</h1>
+        <div class="slogan">
+            <p>We build small fast cars! <a href="https://discord.gg/KWENJaPCMK">Join us</a></p>
+        </div>
     </div>
-    <p class="slogan">We build small fast cars!</p>
-    <p><a href="https://discord.gg/KWENJaPCMK">Join us</a></p>
 </body>
 </html>
