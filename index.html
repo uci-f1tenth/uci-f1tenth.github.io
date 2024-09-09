@@ -26,20 +26,23 @@
         .logo {
             width: 100px;
             height: 100px;
-            margin-left: 20px;
-            background-color: #ddd;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            color: #666;
+            margin-right: 20px; /* Changed from margin-left to margin-right */
+            border-radius: 50%; /* Makes the logo circular */
+            overflow: hidden; /* Ensures the image doesn't spill outside the circle */
+        }
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the circular area without distortion */
         }
     </style>
 </head>
 <body>
     <div class="header">
+        <div class="logo">
+            <img src="F1TenthUCIlogo.png" alt="F1 Tenth @ UCI Logo">
+        </div>
         <h1>F1 Tenth @ UCI</h1>
-        <img src="F1TenthUCIlogo.png" alt="F1 Tenth @ UCI Logo" class="logo">
     </div>
 </body>
 </html>
