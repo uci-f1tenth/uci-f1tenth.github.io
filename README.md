@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# F1Tenth @ UCI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Our Mission
 
-Currently, two official plugins are available:
+Building fast, [small-scale autonomous racing cars](https://www.youtube.com/watch?v=lbP01VaWrVU) is an exciting challenge that we hope to conquer.
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[F1Tenth](https://f1tenth.org/about.html) is an international community of autonomous systems enthusiasts. We are a student-run club aimed at developing machine learning algorithms and building hardware. Our goal is to learn, innovate, and build these systems together to compete in various races throughout the year.
 
-## Expanding the ESLint configuration
+Whether you're a coding genius wonderchild, a hardware nerd, or just curious about autonomous racing, we provide unique opportunities that scratch all itches.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+If you are interested in joining or would like to drop by, please [join us on Discord](https://discord.gg/KWENJaPCMK).
 
--   Configure the top-level `parserOptions` property like this:
+For other inquires please email us at [f1tenth@uci.edu](mailto:f1tenth@uci.edu).
 
-```js
-export default tseslint.config({
-    languageOptions: {
-        // other options...
-        parserOptions: {
-            project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-            tsconfigRootDir: import.meta.dirname,
-        },
-    },
-});
+## Local Development
+
+### Getting Setup
+
+This repo uses `pnpm`, a space-efficient replacement to `npm`. You can learn more about its advantages at <https://pnpm.io/>.
+
+Install pnpm with the following command, or use an [alternative installation method](https://pnpm.io/installation).
+
+```shell
+npm install -g pnpm
 ```
 
--   Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
--   Optionally add `...tseslint.configs.stylisticTypeChecked`
--   Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+When running commands, use `pnpm` rather than `npm`.
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+-   `git clone https://github.com/uci-f1tenth/uci-f1tenth.github.io.git`
+-   `cd uci-f1tenth.github.io`
+-   `pnpm install`
 
-export default tseslint.config({
-    // Set the react version
-    settings: { react: { version: "18.3" } },
-    plugins: {
-        // Add the react plugin
-        react,
-    },
-    rules: {
-        // other rules...
-        // Enable its recommended rules
-        ...react.configs.recommended.rules,
-        ...react.configs["jsx-runtime"].rules,
-    },
-});
-```
+### Running the Project
+
+-   `pnpm dev`
+-   Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
