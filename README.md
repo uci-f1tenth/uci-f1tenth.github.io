@@ -14,6 +14,10 @@ For other inquires please email us at [f1tenth@uci.edu](mailto:f1tenth@uci.edu).
 
 ## Local Development
 
+### Figma
+
+[Figma file](https://www.figma.com/design/tj6ULtgDBZz6NckjtZkcSI/uci-f1tenth.github.io?node-id=0-1&t=4GwqschfKaOtwo3Y-1)
+
 ### Getting Setup
 
 This repo uses `pnpm`, a space-efficient replacement to `npm`. You can learn more about its advantages at <https://pnpm.io/>.
