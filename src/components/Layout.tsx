@@ -13,7 +13,7 @@ function Header() {
       <div className="w-full flex justify-between items-center">
         <img src="/assets/F1TenthUCIlogo.png" alt="logo" className="w-[7.5rem]" />
         <Bars3Icon onClick={ () => { setIsMenuOpen(!isMenuOpen); }} className="w-12 text-white md:hidden" />
-        <ul className="flex gap-2 5 items-center p-2 5">
+        <ul className="hidden md:flex gap-2 5 items-center p-2 5">
           <li>
             <Link to="/">
               <p className="font-semibold uppercase text-white">HOME</p>
