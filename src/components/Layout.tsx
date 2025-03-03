@@ -63,7 +63,7 @@ function Footer() {
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full font-sans">
       { Header() }
       <main className="absolute top-0 w-full flex flex-col">
         { children }
