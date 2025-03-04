@@ -38,20 +38,16 @@ export default function Home() {
         <h2 className="font-black text-5xl text-center uppercase text-white">TWO FIELDS <br className="hidden md:block" />ONE GOAL</h2>
         {/* windows */}
         <div className="w-full md:w-[60rem] flex flex-col md:flex-row gap-16 md:justify-between px-20 md:px-0">
-          <div className="w-full md:w-80 flex flex-col gap-5 items-center">
+          <Link to="/robotics" className="w-full md:w-80 flex flex-col gap-5 items-center">
             <img src="/assets/IMG_0064.webp" alt="car" className="w-full aspect-square object-cover rounded-full" />
             <h3 className="font-extrabold text-4xl text-white uppercase">ROBOTICS</h3>
-            <Link to="/robotics">
-              <h4 className="p-2.5 font-black text-xl uppercase bg-white text-gray-900">TEAM GOGGINS</h4>
-            </Link>
-          </div>
-          <div className="w-full md:w-80 flex flex-col gap-5 items-center">
+            <h4 className="p-2.5 font-black text-xl uppercase bg-white text-gray-900">TEAM GOGGINS</h4>
+          </Link>
+          <Link to="/robotics" className="w-full md:w-80 flex flex-col gap-5 items-center">
             <img src="/assets/IMG_0394.webp" alt="car" className="w-full aspect-square object-cover rounded-full" />
             <h3 className="font-extrabold text-4xl text-white uppercase">AI/RL</h3>
-            <Link to="/robotics">
-              <h4 className="p-2.5 font-black text-xl uppercase bg-white text-gray-900">TEAM ARNOLD</h4>
-            </Link>
-          </div>          
+            <h4 className="p-2.5 font-black text-xl uppercase bg-white text-gray-900">TEAM ARNOLD</h4>
+          </Link>          
         </div>
       </div>
       {/* gallery */}

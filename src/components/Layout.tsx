@@ -11,7 +11,9 @@ function Header() {
     <header className="sticky top-0 w-full z-10 flex flex-col gap-2.5 items-end px-5 md:px-10 py-2.5">
       {/* always visible content */}
       <div className="w-full flex justify-between items-center">
-        <img src="/assets/F1TenthUCIlogo.png" alt="logo" className="w-[7.5rem]" />
+        <Link to="/">
+          <img src="/assets/F1TenthUCIlogo.png" alt="logo" className="w-[7.5rem]" />
+        </Link>
         <Bars3Icon onClick={ () => { setIsMenuOpen(!isMenuOpen); }} className="w-12 text-white md:hidden" />
         <ul className="hidden md:flex gap-5 items-center p-2.5">
           <li>
