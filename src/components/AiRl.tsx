@@ -2,7 +2,7 @@ export default function Robotics() {
   return (
     <div className="w-full flex flex-col items-center">
       {/* landing view */}
-      <div className="relative w-full min-h-dvh flex flex-col items-center justify-center bg-[url(/assets/IMG_0394.webp)] bg-cover bg-center">
+      <div className="relative w-full min-h-lvh flex flex-col items-center justify-center bg-[url(/assets/IMG_0394.webp)] bg-cover bg-center">
         {/* opaque filter */}
         <div className="absolute inset-0 bg-cyan-900 opacity-60" />
         {/* text */}

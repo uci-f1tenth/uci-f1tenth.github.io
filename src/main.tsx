@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/" element={ <Home /> } />
           <Route path="/robotics" element={ <Robotics /> } />
           <Route path="/ai-rl" element={ <AiRl /> } />
-          <Route path="*" element={ <div className='min-h-dvh text-center py-96'>404: Not Found</div> } />
+          <Route path="*" element={ <div className='min-h-lvh text-center py-96'>404: Not Found</div> } />
         </Routes>
       </Layout>
     </BrowserRouter>
