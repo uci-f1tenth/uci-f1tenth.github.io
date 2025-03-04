@@ -8,7 +8,7 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 w-full z-10 flex flex-col gap-2.5 items-end px-5 md:px-10 py-2.5">
+    <header className="fixed top-0 w-full z-10 flex flex-col gap-2.5 items-end px-5 md:px-10 py-2.5">
       {/* always visible content */}
       <div className="w-full flex justify-between items-center">
         <Link to="/">
@@ -89,7 +89,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="relative w-full font-sans">
       { Header() }
-      <main className="absolute top-0 w-full flex flex-col">
+      <main className="w-full flex flex-col -pt-20">
         { children }
         { Footer() }
       </main>
