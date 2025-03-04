@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </div>
       {/* about us */}
-      <div className="relative w-full flex flex-col gap-10 justify-center px-5 md:px-48 pt-44 md:pt-32 pb-16 md:pb-32">
+      <div className="relative w-full overflow-hidden flex flex-col gap-10 justify-center px-5 md:px-48 pt-44 md:pt-32 pb-16 md:pb-32">
         {/* background picture */}
         <img src="/assets/IMG_0322.webp" alt="team" className="absolute -z-10 md:w-full h-full scale-125 md:scale-none overflow-visible object-cover bottom-15 md:bottom-auto left-60 md:left-0" />
         {/* opaque filter */}
