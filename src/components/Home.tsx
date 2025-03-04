@@ -16,7 +16,7 @@ export default function Home() {
       {/* about us */}
       <div className="relative w-full overflow-hidden flex flex-col gap-10 justify-center px-5 md:px-48 pt-44 md:pt-32 pb-16 md:pb-32">
         {/* background picture */}
-        <img src="/assets/IMG_0322.webp" alt="team" className="absolute -z-10 md:w-full h-full scale-125 md:scale-none overflow-visible object-cover bottom-15 md:bottom-auto left-60 md:left-0" />
+        <img src="/assets/IMG_0322.webp" alt="team" className="absolute -z-10 md:w-full h-full scale-125 md:scale-none overflow-visible object-cover bottom-15 md:bottom-auto" />
         {/* opaque filter */}
         <div className="absolute inset-0 bg-black opacity-70" />
         {/* text */}
@@ -53,7 +53,7 @@ export default function Home() {
       {/* gallery */}
       <div className="w-full md:h-[34rem] flex flex-col md:flex-row items-center">
         <img src="/assets/IMG_0382.webp" alt="simulation" className="w-full md:object-cover md:w-1/3 md:h-full" />
-        <img src="/assets/2d740d7e110c66f2bda244443d41a0c5.webp" alt="computer surgery" className="w-full md:object-cover md:w-1/3 md:h-full" />
+        <img src="/assets/image.webp" alt="model" className="w-full md:object-cover md:w-1/3 md:h-full" />
         <img src="/assets/IMG_0061.webp" alt="card" className="w-full md:object-cover md:w-1/3 md:h-full" />
       </div>
       {/* contact */}
