@@ -13,7 +13,7 @@ function Header() {
       <div className="w-full flex justify-between items-center">
         <img src="/assets/F1TenthUCIlogo.png" alt="logo" className="w-[7.5rem]" />
         <Bars3Icon onClick={ () => { setIsMenuOpen(!isMenuOpen); }} className="w-12 text-white md:hidden" />
-        <ul className="hidden md:flex gap-2 5 items-center p-2 5">
+        <ul className="hidden md:flex gap-5 items-center p-2.5">
           <li>
             <Link to="/">
               <p className="font-semibold uppercase text-white">HOME</p>
@@ -75,7 +75,7 @@ function Header() {
 function Footer() {
   return (
     <footer className="w-full flex flex-col gap-10 md:gap-5 items-center py-12 bg-neutral-800">
-      <h3 className="font-black text-2xl md:text-5xl text-white">JOIN OUR SERVER</h3>
+      <h3 className="font-black text-3xl md:text-5xl text-white">JOIN OUR SERVER</h3>
       <Link to="https://discord.gg/KWENJaPCMK">
         <img src="https://support.discord.com/hc/user_images/PRywUXcqg0v5DD6s7C3LyQ.jpeg" alt="discord logo" className="w-20 rounded-2xl" />
       </Link>
