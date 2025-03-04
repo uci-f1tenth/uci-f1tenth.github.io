@@ -32,9 +32,9 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/mailto:f1tenth@uci.edu">
+            <a href="/mailto:f1tenth@uci.edu">
               <p className="font-semibold uppercase text-white">CONTACT US</p>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
