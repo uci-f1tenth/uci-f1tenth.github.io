@@ -22,14 +22,14 @@ export default function Home() {
         {/* text */}
         <h2 className="z-10 font-black text-5xl text-white">About Us</h2>
         <p className="z-10 w-full md:w-[26rem] font-semibold md:font-normal text-white">
-          F1Tenth is an international community of autonomous systems enthusiasts. 
-          We are a student-run club aimed at developing machine learning algorithms 
-          and building hardware. Our goal is to learn, innovate, and build these 
+          F1Tenth is an international community of autonomous systems enthusiasts.
+          We are a student-run club aimed at developing machine learning algorithms
+          and building hardware. Our goal is to learn, innovate, and build these
           systems together to compete in various races throughout the year.
           <br />
           <br />
-          Whether you're a coding genius wonderchild, a hardware nerd, or just 
-          curious about autonomous racing, we provide unique opportunities that 
+          Whether you're a coding genius wonderchild, a hardware nerd, or just
+          curious about autonomous racing, we provide unique opportunities that
           scratch all itches.
         </p>
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
             <img src="/assets/IMG_0394.webp" alt="car" className="w-full aspect-square object-cover rounded-full" />
             <h3 className="font-extrabold text-4xl text-white uppercase">AI/RL</h3>
             <h4 className="p-2.5 font-black text-xl uppercase bg-white text-gray-900">TEAM ARNOLD</h4>
-          </Link>          
+          </Link>
         </div>
       </div>
       {/* gallery */}
@@ -60,7 +60,7 @@ export default function Home() {
       <div className="w-full flex flex-col items-center px-5 py-32 bg-[url(/assets/Screenshot_2025-02-05_at_6.03.01_PM.webp)] bg-cover bg-center">
         <div className="w-full flex flex-col items-center gap-5">
           <h2 className="font-black text-5xl uppercase">INTERESTED?</h2>
-          <p className="font-black text-xl text-center">Meetings every Monday & Wednesday 5:00 - 6:00pm, DBH 1423 / ICF 183</p>
+          <p className="font-black text-xl text-center">Meeting Fridays 6:30 - 7:30pm in DBH 1433 (verify Discord for details)</p>
           <a href="mailto:f1tenth@uci.edu" className="p-2.5 bg-cyan-300">
             <p className="font-black text-xl uppercase text-white">GET IN CONTACT</p>
           </a>
